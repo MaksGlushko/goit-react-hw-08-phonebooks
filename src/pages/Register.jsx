@@ -1,10 +1,10 @@
-import { RegisterForm } from '../components/RegisterForm/RegisterForm';
+import { LoginForm } from '../components/LoginForm/LoginForm';
 
-export default function Register() {
+export default function Login() {
   return (
     <>
-      <title>Registration</title>
-      <RegisterForm />
+      <title>Login</title>
+      <LoginForm />
     </>
   );
 }
