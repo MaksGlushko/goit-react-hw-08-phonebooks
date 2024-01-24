@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { nanoid } from 'nanoid';
 import { useSelector, useDispatch } from 'react-redux';
 import { Filter } from '../Filter/Filter';
-import { selectContacts } from '../../redux/contacts/selectors';
-import { addContacts } from '../../redux/contacts/operations';
+import { selectContacts } from '../../store/contacts/selectors';
+import { addContacts } from '../../store/contacts/operations';
 import { Form, Label, Input, Button } from './ContactForm.styled';
 
 const nameInputId = nanoid();
